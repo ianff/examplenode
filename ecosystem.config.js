@@ -11,7 +11,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'https://github.com/ianff/examplenode.git',
       path: '/home/ubuntu/node-example',
-      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
+      post-deploy: 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
 }
